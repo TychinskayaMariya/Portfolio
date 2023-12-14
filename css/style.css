@@ -161,6 +161,15 @@ body.switchMode .section_title {
 .about_text p {
     font-size: 18px;
     margin-bottom: 25px;
+    margin-top: 25px;
+    text-align: justify;
+}
+
+.about_text a {
+    font-size: 18px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    text-align: justify;
 }
 
 body.switchMode .about_text p {
@@ -178,6 +187,8 @@ body.switchMode .about_text p {
     position: relative;
     margin: 0 10px 15px 0;
     width: calc(100% / 3 - 10px);
+    border: 1px solid #333;
+    border-radius: 3px;
 }
 
 .portfolio_items .item:last-child {
@@ -186,11 +197,6 @@ body.switchMode .about_text p {
 
 .portfolio_items .item img {
     max-width: 100%;
-}
-
-.portfolio_btn {
-    display: flex;
-    justify-content: center;
 }
 
 .contacts_form {
